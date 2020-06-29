@@ -5,7 +5,7 @@ Created on Wed Oct  4 17:07:51 2017
 This script is written to evaluate a pretrained model saved as  model.h5 using 'testData.npy' 
 and 'groundTruth.npy'. This script reports the error as the cross entropy loss in percentage
 and also generated a png file for the confusion matrix. 
-@author:Muhammad Shahnawaz
+
 """
 # importing the dependencies
 from keras.models import load_model
